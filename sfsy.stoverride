@@ -18,10 +18,10 @@ http:
 cron:
   script:
     - name: "顺丰速运获取token_7"
-      cron: "8 10,19 * * *"
+      cron: "9 10,19 * * *"
       timeout: 120
 
 script-providers:
   "顺丰速运获取token_7":
-    url: https://gist.githubusercontent.com/Sliverkiss/1fb1cf9cd7486d30752b1ba29b871e37/raw/sfsy.js
+    url: https://raw.githubusercontent.com/520LUO/icons/main/sfsy.js
     interval: 86400
