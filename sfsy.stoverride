@@ -3,9 +3,9 @@ name: |-
 desc: |-
   顺丰积分任务
 icon: |-
-  https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1021.png
-category: |- 
-会员签到
+  https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1079.png
+category: |-
+  会员签到
 http:
   mitm:
     - "mcs-mimp-web.sf-express.com"
@@ -18,7 +18,7 @@ http:
 cron:
   script:
     - name: "sfsy-cron_7"
-      cron: "4 10,19 * * *"
+      cron: "6 10,19 * * *"
       timeout: 120
 script-providers:
   "sfsy-cron_7":
