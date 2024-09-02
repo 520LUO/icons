@@ -1,0 +1,22 @@
+name: |-
+  顺丰积分任务
+desc: |-
+  顺丰积分任务
+icon: |-
+  https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1035.png
+category: |-
+  
+会员签到 
+http: 
+  mitm:
+    - "mcs-mimp-web.sf-express.com" 
+  script:
+    - match: ^https:\/\/mcs-mimp-web\.sf-express\.com\/mcs-mimp\/share\/weChat\/shareGiftReceiveRedirect.+
+      name: "顺丰速运获取token_7"
+      type: response
+      require-body: true
+      timeout: 60 
+script-providers:
+  "顺丰速运获取token_7":
+    url: https://raw.githubusercontent.com/520LUO/icons/main/sfsy.js
+    interval: 86400 
