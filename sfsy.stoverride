@@ -3,7 +3,7 @@ name: |-
 desc: |-
   顺丰积分任务
 icon: |-
-  https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1079.png
+  https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1005.png
 category: |-
   会员签到
 http:
@@ -11,16 +11,17 @@ http:
     - "mcs-mimp-web.sf-express.com"
   script:
     - match: ^https:\/\/mcs-mimp-web\.sf-express\.com\/mcs-mimp\/share\/weChat\/shareGiftReceiveRedirect.+
-      name: "sfsy-cron_7"
+      name: "顺丰速运获取token_7"
       type: response
       require-body: true
       timeout: 60
 cron:
   script:
-    - name: "sfsy-cron_7"
-      cron: "6 10,19 * * *"
+    - name: "顺丰速运获取token_7"
+      cron: "8 10,19 * * *"
       timeout: 120
+
 script-providers:
-  "sfsy-cron_7":
+  "顺丰速运获取token_7":
     url: https://gist.githubusercontent.com/Sliverkiss/1fb1cf9cd7486d30752b1ba29b871e37/raw/sfsy.js
     interval: 86400
