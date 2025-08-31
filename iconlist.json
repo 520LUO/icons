@@ -3,7 +3,7 @@
   "icons":[
     {"name":"jdmarket","url":"https:\/\/m11.360buyimg.com\/babel\/s165x165_jfs\/t1\/332357\/37\/5401\/20416\/68afeffeF74da7968\/b24a303ee5744bca.png"},
     {"name":"shengxianguan","url":"https:\/\/raw.githubusercontent.com\/520LUO\/icons\/refs\/heads\/main\/IMG_6429.jpeg"},
-    {"name":"jdcoupon","url":""},
+    {"name":"jdffcoupon","url":"https:\/\/raw.githubusercontent.com\/520LUO\/icons\/refs\/heads\/main\/IMG_6432.jpeg"},
     {"name":"emby", "url":"https:\/\/raw.githubusercontent.com\/lige47\/QuanX-icon-rule\/main\/icon\/emby.png"},
     {"name":"chinamobilemcloud", "url":"https:\/\/raw.githubusercontent.com\/lige47\/QuanX-icon-rule\/main\/icon\/chinamobilemcloud.png"},
     {"name":"189", "url":"https:\/\/raw.githubusercontent.com\/lige47\/QuanX-icon-rule\/main\/icon\/189.png"},
@@ -256,6 +256,7 @@
     {"name":"baicaicabbageTV-emby", "url":"https:\/\/raw.githubusercontent.com\/lige47\/QuanX-icon-rule\/main\/icon\/baicaicabbageTV-emby.png"}
  ]
 }
+
 
 
 
